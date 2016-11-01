@@ -5,3 +5,15 @@ header, section {
 section {
   background-color: blue;
 }
+
+@mixin responsiveText($name) {
+  .name {
+    font-size: $name;
+  }
+}
+
+@media (max-width: 600px) {
+  @include responsiveText(3vh);
+}
+
+

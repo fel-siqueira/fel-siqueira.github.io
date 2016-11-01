@@ -4,4 +4,8 @@ header, section {
 section {
   background-color: blue; }
 
+@media (max-width: 600px) {
+  .name {
+    font-size: 3vh; } }
+
 /*# sourceMappingURL=style.css.map */
