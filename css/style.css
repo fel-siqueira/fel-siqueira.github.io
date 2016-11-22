@@ -1,5 +1,6 @@
 header, section {
-  height: 100vh; }
+  height: 100vh;
+  overflow: auto; }
 
 section {
   background-color: blue; }
