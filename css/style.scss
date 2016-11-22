@@ -45,9 +45,9 @@ section {
 
 
 @media (min-width: 320px) and (max-width: 359px) {
-  @include responsiveDesign(6vh, 50px, 20px, auto, 50px, 50px);
+  @include responsiveDesign(11vw, 50px, 20px, auto, 50px, 50px);
 }
 
 @media (min-width: 360px) and (max-width: 480px) {
-  @include responsiveDesign(6vh, 70px, 20px, 70px, 80px, 80px);
+  @include responsiveDesign(11vw, 70px, 20px, 70px, 80px, 80px);
 }
