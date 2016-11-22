@@ -1,7 +1,8 @@
+var hd = $("header");
 $(window).resize("resizeBackground");
 
 function resizeBackground() {
-  header.height($(window).height() + 60);  
+  hd.height($(window).height() + 60);  
 }
 
 resizeBackground();
