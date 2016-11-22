@@ -1,6 +1,9 @@
+html, body {
+  height: 100%;
+  margin: 0; }
+
 header, section {
-  height: 100vh;
-  overflow: auto; }
+  height: 100vh; }
 
 section {
   background-color: blue; }
