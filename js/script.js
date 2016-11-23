@@ -3,14 +3,12 @@ $(document).ready(function() {
     draggable: true
   });
 
-  var initialHeight = $(window).height();
+  var initial = $(window).height();
 
-  $(window).scroll(function(initialHeight) {
-    var diff = Math.abs(initialHeight - $(this).height());
+  $(window).scroll(initial, function() {
+    var diff = Math.abs(initial - $(this).height());
 
-    $(this).height(initialHeight+diff);
-
-    
+    $(this).height($(this.height() + diff));
   });
 });
 
