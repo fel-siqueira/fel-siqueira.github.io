@@ -3,16 +3,14 @@ $(document).ready(function() {
     draggable: true
   });
 
-  var initial = $(window).height();
+  var inicial = $(window).height();
 
-  $(window).scroll(initial, function() {
-    var diff = Math.abs(initial - $(this).height());
-    console.log(diff);
-
-    var atual = $(window).height();
-    console.log(atual);
-    $(this).height(initial + atual);
+  $(window).scroll(inicial, function() {
+    console.log(inicial);
+    $("header").height(inicial);
+    $("section").height(inicial);
   });
+
 });
 
 
