@@ -4,12 +4,9 @@ $(document).ready(function() {
   });
 
   var inicial = $(window).height();
+  var queroqueseja = inicial + 54;
+  $("header").height(queroqueseja);
 
-  $(window).scroll(inicial, function() {
-    var diff = Math.abs(inicial - $(this).height());
-
-    $("header").height(inicial+diff);
-  });
 });
 
 
