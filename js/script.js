@@ -9,10 +9,6 @@ $(document).ready(function() {
     var diff = Math.abs(inicial - $(this).height());
 
     $("header").height(inicial+diff);
-    $("section").height(inicial+diff);
-
-
-
   });
 });
 
