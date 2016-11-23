@@ -6,9 +6,7 @@ $(document).ready(function() {
   var inicial = $(window).height();
 
   $(window).scroll(inicial, function() {
-    console.log(inicial);
-    $("header").height(inicial);
-    $("section").height(inicial);
+    $("header").height(inicial + 60);
   });
 
 });
