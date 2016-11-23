@@ -6,9 +6,12 @@ $(document).ready(function() {
   var inicial = $(window).height();
 
   $(window).scroll(inicial, function() {
-    $("header").height(inicial + 60);
-  });
+    var diff = Math.abs(inicial - $(this).height());
+    $("header").height(inicial+diff);
 
+
+
+  });
 });
 
 
