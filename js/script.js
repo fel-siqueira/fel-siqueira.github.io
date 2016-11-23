@@ -7,8 +7,11 @@ $(document).ready(function() {
 
   $(window).scroll(initial, function() {
     var diff = Math.abs(initial - $(this).height());
+    console.log(diff);
 
-    $(this).height($(this.height() + diff));
+    var atual = $(window).height();
+    console.log(atual);
+    $(this).height(initial + atual);
   });
 });
 
