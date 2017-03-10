@@ -7,9 +7,10 @@ $(document).ready(function() {
 
   // JQuery
   $.ajax({
-    url: "https://api.github.com/users/fel-siqueira", 
+    url: "https://api.github.com/users/fel-siqueira/repos", 
     success: function(result){ 
-      $("#picture").attr("src", result.avatar_url);
+      var avatar = result[0].owner.avatar_url;
+      $("#picture").attr("src", avatar);
     }
   });
 });
