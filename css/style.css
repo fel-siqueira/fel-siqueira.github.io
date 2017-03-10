@@ -1,3 +1,14 @@
+#aboutme {
+  font-size: 1.05em;
+  line-height: initial; }
 
+#name-about {
+  margin-left: 1vw; }
+
+#picture {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 5px; }
 
 /*# sourceMappingURL=style.css.map */
