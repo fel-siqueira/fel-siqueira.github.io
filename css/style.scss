@@ -2,6 +2,15 @@ main {
     padding-left: 300px;
 }
 
+a {
+    img, span{
+    vertical-align: middle;
+    }
+    img {
+        margin-right: 0.5vw;
+    }
+}
+
 #aboutme {
     font-size: 1.05em;
     line-height: initial;
@@ -33,5 +42,11 @@ main {
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url('https://placehold.it/300x300') center no-repeat #fff;
+	background: url('https://placehold.it/1x1') center no-repeat #fff;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        padding-left: 0;
+    }
 }

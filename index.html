@@ -2,58 +2,55 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-
   <title>fel-siqueira.github.io</title>
-
-   <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="assets/materialize/css/materialize.css" media="screen,projection">
   <link rel="stylesheet" href="css/style.css">
-  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <div class="se-pre-con"></div>
+  <div class="se-pre-con">
+  </div>
   <header>
-    <nav id="nav-mobile" class="side-nav fixed blue darken-4">
+    <nav id="slide-out" class="side-nav fixed blue darken-4">
       <div id="myprofile" class="blue darken-3 z-depth-3">
-        <img id="picture" class="responsive-img" src="" alt="">
-        <div id="name-about">
-          <h1 class="flow-text blue-grey-text text-lighten-5">Felipe Siqueira Pinheiro</h1>
-          <p id="aboutme" class="flow-text blue-grey-text text-lighten-5">20, brazilian, technology & innovation lover, system analyst and developer under construction, intern at IBM Brasil
-          </p>
-        </div>
       </div>
       <div id="social">
         <ul>
           <li>
             <a href="https://github.com/fel-siqueira" class="blue-grey-text text-lighten-4" target="_blank">
-              <i class="material-icons">add</i>
+              <img src="./images/icons/github.png" alt="">
               <span>GitHub</span>
             </a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/felipe-siqueira-pinheiro-186a2b11a/" class="blue-grey-text text-lighten-4" target="_blank">
-              <i class="material-icons">add</i>
+              <img src="./images/icons/linkedin.png" alt="">
               <span>LinkedIn</span>
             </a>
           </li>
           <li>
             <a href="http://stackoverflow.com/users/6482282/felipe-siqueira" class="blue-grey-text text-lighten-4" target="_blank">
-              <i class="material-icons">add</i>
+              <img src="./images/icons/stackoverflow.png" alt="">
               <span>Stack Overflow</span>
             </a>
           </li>
           <li>
-            <a href="" class="blue-grey-text text-lighten-4" target="_blank">
-              <i class="material-icons">add</i>
+            <a href="#" class="blue-grey-text text-lighten-4 dropdown-button" data-activates='dropdown1' target="_blank">
+              <img src="./images/icons/email.png" alt="">
               <span>Contact</span>
             </a>
+            <ul id="dropdown1" class="dropdown-content">
+              <li class="blue darken-3 z-depth-5">
+                <span id="email" class="blue-grey-text text-lighten-5">fel.siqueirapinheiro@gmail.com</span>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
     </nav>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
   </header>
   <main>
     <div class="section">
