@@ -1,4 +1,4 @@
-main {
+main, footer {
   padding-left: 300px; }
 
 a img, a span {
@@ -46,7 +46,7 @@ a img {
   background: url("https://placehold.it/1x1") center no-repeat #fff; }
 
 @media screen and (max-width: 768px) {
-  main {
+  main, footer {
     padding-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */

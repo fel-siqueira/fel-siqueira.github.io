@@ -1,4 +1,4 @@
-main {
+main, footer {
     padding-left: 300px;
 }
 
@@ -52,7 +52,7 @@ a {
 }
 
 @media screen and (max-width: 768px) {
-    main {
+    main, footer {
         padding-left: 0;
     }
 }
