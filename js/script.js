@@ -48,5 +48,8 @@ $(document).ready(function() {
     $('.dropdown-button + .dropdown-content').on('click', function(event) {
     event.stopPropagation();
   });
+   $('.dropdown-button + .dropdown-content').on('tap', function(event) {
+    event.stopPropagation();
+  });
 });
 

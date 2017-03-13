@@ -24,6 +24,9 @@ a img {
   padding-top: 2vh;
   padding-bottom: 1vh; }
 
+#social img {
+  max-width: 25px; }
+
 .no-js #loader {
   display: none; }
 
