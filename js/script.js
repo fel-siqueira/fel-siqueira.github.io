@@ -29,7 +29,7 @@ $(document).ready(function() {
                 </div>\
               </div>'
         if ($.inArray(result[i].name, repos) != -1) {
-          $('.row').append(card);
+          $('#repos').append(card);
         }
       }
     },
