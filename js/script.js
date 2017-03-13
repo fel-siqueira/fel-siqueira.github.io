@@ -45,10 +45,7 @@ $(document).ready(function() {
       $('#myprofile').append(profile);
     },
   });
-    $('.dropdown-button + .dropdown-content').on('click', function(event) {
-    event.stopPropagation();
-  });
-   $('.dropdown-button + .dropdown-content').on('tap', function(event) {
+    $('.dropdown-button + .dropdown-content').on('click touchstart', function(event) {
     event.stopPropagation();
   });
 });
